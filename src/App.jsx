@@ -3,7 +3,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <h1>Putanginamo</h1>
+      <h1>Happy Halloween</h1>
     </>
   )
 }
