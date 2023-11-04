@@ -1,17 +1,16 @@
+import "../Styles/navbar.css";
 
-const Navbar = (
-
-  
-) => {
+const Navbar = () => {
   return (
-    <div className="Container">
-    <button>Home</button>
-    <button>Trade</button>
-    <button>Donation</button>
-    <button>Points</button>
-    <a href="">Contact </a>
-    <a href="">Contact </a>
+  <div className="button">
+    <button class="Home">Home</button>
+    <button class="Trade">Trade</button>
+    <button class="Donation">Donation</button>
+    <button class="Points">Points</button>
+    <button class="Donation">Contact Us</button>
+    <button class="Points">About Us</button>
 </div>
+
   )
 }
 
