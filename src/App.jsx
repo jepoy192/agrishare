@@ -1,11 +1,12 @@
-import "./App.css";
-import Sigin from "./Components/Sigin";
+import './App.css'
+import Sigin from './Components/Sigin';
+import Navbar from './Components/navbar.jsx';
 
 function App() {
   return (
-    <>
-      <Sigin />
-    </>
+    <div>
+      <Navbar/>
+    </div>
   );
 }
 
