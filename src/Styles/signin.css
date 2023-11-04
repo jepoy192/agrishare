@@ -7,6 +7,8 @@
   width: 35em;
   height: 25em;
   padding-top: 30px;
+  border: 2px solid rgb(134, 129, 129);
+  border-radius: 10px;
 }
 
 .email,
@@ -20,8 +22,14 @@
   margin-top: 6px;
 }
 
+.icon {
+  position: relative;
+  left: 20px;
+  right: 20px;
+}
+
 .Forgot {
-  margin-left: 8em;
+  margin-left: 5em;
 }
 
 .login {
