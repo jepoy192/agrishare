@@ -1,11 +1,12 @@
-import './App.css'
+import "./App.css";
+import Sigin from "./Components/Sigin";
 
 function App() {
   return (
     <>
-      <h1>Putanginamoahasdasdsadahaha</h1>
+      <Sigin />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
