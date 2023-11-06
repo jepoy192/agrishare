@@ -3,11 +3,12 @@
   position: relative;
   top: 5em;
   left: 25em;
-  box-shadow: 4px -11px 12px 8px rgba(168, 168, 168, 0.43);
-  width: 35em;
-  height: 25em;
-  padding-top: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  width: 30em;
+  height: 23em;
+  padding-top: 2px;
   border: 2px solid rgb(134, 129, 129);
+  border-style: none;
   border-radius: 10px;
 }
 
@@ -15,7 +16,7 @@
 .password {
   width: 25em;
   height: 3em;
-  border: 2px solid rgb(134, 129, 129);
+  border: 2px solid rgb(231, 228, 228);
   border-radius: 4px;
 }
 .password {
@@ -30,6 +31,12 @@
 
 .Forgot {
   margin-left: 5em;
+  font-size: 12px;
+}
+
+.register,
+.remember {
+  font-size: 12px;
 }
 
 .login {
@@ -38,5 +45,6 @@
   height: 3em;
   border-style: none;
   border-radius: 20px;
-  background: green;
+  background: #00b207;
+  color: white;
 }

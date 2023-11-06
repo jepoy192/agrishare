@@ -1,22 +1,39 @@
 import "../Styles/signin.css";
-import passicon from "../Images/icons8-eye-16 (1).png";
 
 const Sigin = () => {
+  const signIn = {
+    headerOne: "Sign In",
+    emailInput: "Email",
+    passInput: "Password",
+    checkBox: "checkbox",
+  };
+
   return (
     <div className="container">
-      <h1 className="heading1">Sign In</h1>
-      <div>
-        <input type="email" placeholder="Email" className="email" />
-        <input type="password" placeholder="Password" className="password" />
-        {/* <img src={passicon} className="icon" alt="Password Icon" /> */}
+      <h1 className="heading1">{signIn.headerOne}</h1>
+
+      <div className="input-form">
+        <input
+          type={signIn.emailInput}
+          placeholder={signIn.emailInput}
+          className="email"
+        />
+
+        <input
+          type={signIn.passInput}
+          placeholder={signIn.passInput}
+          className="password"
+        />
       </div>
-      <br />
-      <input type="checkbox" className="checkBox" /> remember me
+
+      <input type="checkBox" className="checkBox" />
+
+      <span className="remember">remember me</span>
       <span className="Forgot">Forgot Password</span>
       <br />
       <button className="login">Log In</button>
-      <p>
-        Dont have account <a>Register?</a>
+      <p className="register">
+        Dont have account <a href="www.facebook.com">Register?</a>
       </p>
     </div>
   );
