@@ -1,10 +1,19 @@
-import Navbar from "./Components/Navbar";
+import Navbar from "../Components/Navbar";
+import Hero from "../Components/Hero";
+import Categories from "../Components/Categories";
+import HotDeals from "../Components/HotDeals";
+import TopDonator from "../Components/TopDonator";
 
-const HomePage = () => {
+const Homepage = () => {
   return (
-    <div>
+    <main>
       <Navbar />
-    </div>
+      <Hero />
+      <Categories />
+      <HotDeals />
+      <TopDonator />
+    </main>
   );
 };
-export default HomePage;
+
+export default Homepage;

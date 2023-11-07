@@ -1,13 +1,10 @@
-import "./App.css";
-import Sigin from "./Components/Sigin";
-import HomePage from "./Pages/HomePage";
+import Homepage from "./Pages/Homepage";
 
-function App() {
+const App = () => {
   return (
     <div>
-      <HomePage />
+      <Homepage />
     </div>
   );
-}
-
+};
 export default App;
