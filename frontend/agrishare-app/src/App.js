@@ -2,6 +2,7 @@ import Trade from "./Pages/Trade";
 import Categories from "./Pages/Categories";
 
 import { Routes, Route, Link } from "react-router-dom";
+import Landingpage from "./Pages/Landingpage";
 
 const App = () => {
   return (
@@ -14,7 +15,9 @@ const App = () => {
           Trade
         </Link>
       </nav>
+      <Landingpage/>
 
+      
       <Routes>
         <Route path="/" element={<Categories />} />
         <Route path="/trade" element={<Trade />} />
