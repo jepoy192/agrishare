@@ -8,16 +8,16 @@ const App = () => {
     <div className="App">
       <nav className="nav">
         <Link to="/" className="nav-item">
-          Categories
+          Trade
         </Link>
         <Link to="/trade" className="nav-item">
-          Trade
+          Categories
         </Link>
       </nav>
 
       <Routes>
-        <Route path="/" element={<Categories />} />
-        <Route path="/trade" element={<Trade />} />
+        <Route path="/" element={<Trade />} />
+        <Route path="/trade" element={<Categories />} />
       </Routes>
     </div>
   );
